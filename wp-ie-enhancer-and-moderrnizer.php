@@ -31,7 +31,7 @@ Info: Make old Microsoft Internet Explorer behave like a standards-compliant bro
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
  * Part of Copyright © 2011 belongs to sLaT ™ [LavaTeam] NGjI ™ [NewGenerationInterfaces] (slangji [at] gmail [dot] com)
- * and a portion to their respective owners. Not For Resale or Business Purpose.
+ * and a portion to their respective owners ® Patent Pending - Licensing Applyed - Not For Resale or Business Purpose.
  */
 /**
  * @package WP IE Enhancer and Modernizer
