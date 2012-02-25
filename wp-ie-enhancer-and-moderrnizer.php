@@ -8,8 +8,8 @@ Author: sLa
 Author URI: http://wordpress.org/extend/plugins/profile/sla/
 Requires at least: 2.1
 Tested up to: 3.4
-License: GPLv3
-License URI: http://plugins.svn.wordpress.org/wp-ie-enhancer-and-modernizer/trunk/gpl-3.0.txt
+License: GPLv2
+License URI: http://plugins.svn.wordpress.org/wp-ie-enhancer-and-modernizer/trunk/gpl-2.0.txt
 Tags: ie, enhancer, modernizer, microsoft, browser, old, ie5.5, ie6, surfing, experience, wordpress, wp, html, css, fix, fixes, fixing, correct, corrections, html5, transparent, png, issues, elements, render, shiv, shim, ie7, ie7-js, js, htmlshiv, html5shiv, forces, page, latest, version, available, x-ua-compatible, x, ua, compatible, x-ua
 Excerpt: IE <code>Enhancer and Modernizer</code> WordPress Surfing Expirience for old Microsoft Browsers.
 Info: Make old Microsoft Internet Explorer behave like a standards-compliant browser: fixes many HTML and CSS issues, makes transparent PNG work correctly under IE5 and IE6, shiv to recognise and style the HTML5 elements, forces to render the page as the latest version available 8,9,10.
