@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/
 Description: Make IE standards-compliant browser. Fixes HTML/CSS issues, fixes transparent PNG under IE5/IE6, shiv (X)HTML5 elements and render to latest version. Work under GPLv2 License. | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Schedule Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend and User Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a>
 Version: 2011.0921.0310
 Author: sLa
-Author URI: http://wordpress.org/extend/plugins/profile/sla/
+Author URI: http://wordpress.org/extend/plugins/profile/slangji
 Requires at least: 2.1
 Tested up to: 3.4
 License: GPLv2
@@ -30,7 +30,7 @@ Info: Make old Microsoft Internet Explorer behave like a standards-compliant bro
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/sla/) a.k.a. sLa (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2011 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) a.k.a. sLa (slangji [at] gmail [dot] com)
  */
 /**
  * @package WP IE Enhancer and Modernizer
@@ -40,7 +40,7 @@ Info: Make old Microsoft Internet Explorer behave like a standards-compliant bro
  * @author sLa
  * @license GPLv2
  *
- * WordPress old Microsof IE Enhancer and Modernizer Surfing Expirience.
+ * WordPress old Microsof IE Enhancer and Modernizer Surfing Expirience. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpieeam_log(){echo"\n<!--Plugin WP IE Enhancer and Modernizer 2011.0921.0310 Active-->\n";}add_action('wp_head','wpieeam_log');add_action('wp_footer','wpieeam_log')?><?php
