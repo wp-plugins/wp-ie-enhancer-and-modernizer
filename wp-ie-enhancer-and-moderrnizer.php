@@ -11,8 +11,6 @@ Tested up to: 3.4
 License: GPLv2
 License URI: http://plugins.svn.wordpress.org/wp-ie-enhancer-and-modernizer/trunk/gpl-2.0.txt
 Tags: ie, enhancer, modernizer, microsoft, browser, old, ie5.5, ie6, surfing, experience, wordpress, wp, html, css, fix, fixes, fixing, correct, corrections, html5, transparent, png, issues, elements, render, shiv, shim, ie7, ie7-js, js, htmlshiv, html5shiv, forces, page, latest, version, available, x-ua-compatible, x, ua, compatible, x-ua, work, under, license, gplv2
-Excerpt: IE <code>Enhancer and Modernizer</code> WordPress Surfing Expirience for old Microsoft Browsers. Work under GPLv2 License.
-Info: Make old Microsoft Internet Explorer behave like a standards-compliant browser: fixes many HTML and CSS issues, makes transparent PNG work correctly under IE5 and IE6, shiv to recognise and style the HTML5 elements, forces to render the page as the latest version available 8,9,10. Work under GPLv2 License.
  *
  * WP IE Enhancer and Modernizer - WordPress PlugIn
  *
@@ -40,7 +38,7 @@ Info: Make old Microsoft Internet Explorer behave like a standards-compliant bro
  * @author sLa
  * @license GPLv2
  *
- * WordPress old Microsof IE Enhancer and Modernizer Surfing Expirience. Work under GPLv2 License.
+ * Enhancer and Modernizer IE WordPress Surfing Expirience. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
 function wpieeam_log(){echo"\n<!--Plugin WP IE Enhancer and Modernizer 2011.0921.0310 Active-->\n";}add_action('wp_head','wpieeam_log');add_action('wp_footer','wpieeam_log')?><?php
