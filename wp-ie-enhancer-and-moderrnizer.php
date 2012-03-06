@@ -40,7 +40,7 @@ License URI: http://plugins.svn.wordpress.org/wp-ie-enhancer-and-modernizer/trun
  * Enhancer and Modernizer IE WordPress Surfing Expirience. Work under GPLv2 License.
  */
 if(!function_exists('add_action')){header('Status 403 Forbidden');header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}?><?php
-function wpieeam_log(){echo"\n<!--Plugin WP IE Enhancer and Modernizer 2011.0921.0310 Active-->\n";}add_action('wp_head','wpieeam_log');add_action('wp_footer','wpieeam_log')?><?php
+function wpieeam_log(){echo"\n<!--Plugin WP IE Enhancer and Modernizer 2011.0921.0310 Active-->";}add_action('wp_head','wpieeam_log');add_action('wp_footer','wpieeam_log')?><?php
 function wpieeam(){echo'<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <script src="http://ie7-js.googlecode.com/svn/trunk/lib/IE9.js">IE7_PNG_SUFFIX=".png";</script>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>';}add_action('wp_head','wpieeam')?>
