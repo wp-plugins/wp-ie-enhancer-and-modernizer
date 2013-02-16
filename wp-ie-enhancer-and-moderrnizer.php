@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: √ IE Enhancer and Modernizer
+Plugin Name: √ WP IE Enhancer and Modernizer
 Plugin URI: http://slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
-Description: &#9733;&#9733;&#9733; Make IE standards-compliant browser. Fixes HTML/CSS issues, fixes transparent PNG under IE5/IE6, shiv (X)HTML5 elements and render to latest version. Code in Becoming. Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU style</a> indentation coding standard compatible. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestions">Contact</a> | <a href="http://profiles.wordpress.org/slangji" title="sLaNGjI's Profile @ WordPress.org">My Profile</a> | <a href="http://webscripts.softpedia.com/author/sLa-1869786722.html" title="sLa Developer Page @ SoftPedia.com">My SoftPedia</a> | <a href="http://slangji.wordpress.com/themes/" title="sLaNGjI's Custom Themes">My Themes</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/extend/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a>
+Description: &#9733;&#9733;&#9733; Make IE standards-compliant browser. Fixes HTML/CSS issues, fixes transparent PNG under IE5/IE6, shiv (X)HTML5 elements and render to latest version. This Free Software Want You: please Contribute on it and Make your own Fantasy and Competence! (Code in Becoming) Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU style</a> indentation coding standard compatible. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestions">Contact</a> | <a href="http://profiles.wordpress.org/slangji" title="sLaNGjI's Profile @ WordPress.org">My Profile</a> | <a href="http://webscripts.softpedia.com/author/sLa-1869786722.html" title="sLa Developer Page @ SoftPedia.com">My SoftPedia</a> | <a href="http://slangji.wordpress.com/themes/" title="sLaNGjI's Custom Themes">My Themes</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/extend/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a>
 Version: 2013.0202.1848
 Author: sLa
 Author URI: http://slangji.wordpress.com/
@@ -13,11 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * STABLE Release: Version 2013 Build 0202 Revision 1848 - Code in Becoming.
- *
- * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) WordPress PlugIn
- *
- * 64Bit Security Tag Key: s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
  *
  * √ CONTACT
  *
@@ -116,34 +112,32 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 /**
  * @package IE Enhancer and Modernizer
  * @subpackage WordPress PlugIn
+ * @description Enhancer and Modernizer IE WordPress Surfing Expirience.
  * @since 2.1.0
  * @version 2013.0202.1848
- * @status STABLE Release
+ * @status DEVELOPMENT Code in Becoming
  * @author sLa
  * @license GPLv2 or later
  * @indentation GNU style coding standard
- * @security s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V 64Bit Tag Key
+ * @keytag s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V
+ * @checksum 9B93C1BD65FFFA993D9E03F5FAD58761
  *
- * Enhancer and Modernizer IE WordPress Surfing Expirience.
- *
- * Work under GPLv2 or later License. GNU style indentation coding standard compatible.
+ * This Free Software Want You: please Contribute on it and Make your own Fantasy and Competence!
  */
-	if (!function_exists('add_action'))
+	if ( !function_exists( 'add_action' ) )
 		{
-			header('HTTP/1.0 403 Forbidden');
-			header('HTTP/1.1 403 Forbidden');
+			header( 'HTTP/1.0 403 Forbidden' );
+			header( 'HTTP/1.1 403 Forbidden' );
 			exit();
-		}
-?>
-<?php
+		} //!function_exists( 'add_action' )
+
 	function wpieeam_log()
 		{
-			echo "\n<!--Plugin IE Enhancer and Modernizer 2012.0322.2238 Active - 64Bit Security Tag Key: s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V-->\n\n";
+			echo "\n<!--Plugin IE Enhancer and Modernizer 2012.0322.2238 Active - Key Tag: s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V-->\n\n";
 		}
-	add_action('wp_head', 'wpieeam_log');
-	add_action('wp_footer', 'wpieeam_log');
-?>
-<?php
+	add_action( 'wp_head', 'wpieeam_log' );
+	add_action( 'wp_footer', 'wpieeam_log' );
+
 	function wpieeam()
 		{
 			echo '
@@ -167,5 +161,5 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	<!--/Plugin IE Enhancer and Modernizer End Code-->
 	';
 		}
-	add_action('wp_head', 'wpieeam');
+	add_action( 'wp_head', 'wpieeam' );
 ?>
