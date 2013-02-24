@@ -121,8 +121,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * @indentation GNU style coding standard
  * @keytag s2gJ4RrV9t4i5GfQu4e0u82365E77P91XR7yyCSt18V4Fvf20eFm331938S5Ip16V
  * @checksum 9B93C1BD65FFFA993D9E03F5FAD58761
- *
- * This Free Software Want You: please Contribute on it and Make your own Fantasy and Competence!
  */
 	if ( !function_exists( 'add_action' ) )
 		{
