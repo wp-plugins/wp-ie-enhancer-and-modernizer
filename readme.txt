@@ -1,12 +1,13 @@
-=== IE Enhancer and Modernizer ===
+=== √ IE Enhancer and Modernizer ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: sLaNGjI
 Stable tag: 2013.0202.1848
 Requires at least: 2.1
-Tested up to: 3.8
-License: GPLv2 (or later)
-Make IE standards-compliant browser: fix HTML/CSS, fix transparent PNG IE5/6, shiv (X)HTML5 elements, render to latest version.
+Tested up to: 3.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+&#9733;&#9733;&#9733; Make IE standards-compliant browser: fix HTML/CSS, fix transparent PNG IE5/6, shiv (X)HTML5 elements, render to latest version.
 == Description ==
 Make IE standards-compliant browser. Fixes HTML/CSS issues, fixes transparent PNG under IE5/IE6, shiv (X)HTML5 elements and render to latest version.
 
