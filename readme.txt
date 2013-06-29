@@ -35,8 +35,8 @@ Developmental Code in Becoming!
  * Please update as soon as possible!
  * NEW Add Preemptive KeyTag Plugin Authenticity Support
  * NEW Add Header and Footer Log
+ * NEW Removed non-ASCII characters on readme.txt and plugin header thanks otto42
  * UPDATED Security Rules
- * UPDATED Removed non-ASCII characters from readme.txt and plugin header: Thanks to otto42
  * BUMP Version 2013 Build 0629 Revision 0138
 = Common Rules =
  * Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
