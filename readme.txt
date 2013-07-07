@@ -67,7 +67,7 @@ and no longer supported on this project: is very
 suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
-= 2013.0607.0521 =
+= 2013.0707.0521 =
 * Gold Update [STABLE] Implement New [HTML5SHIV-PRINTSHIV](http://code.google.com/p/html5shiv-printshiv/) Code
  * Please update as soon as possible!
  * NEW Implement New [HTML5SHIV-PRINTSHIV](http://code.google.com/p/html5shiv-printshiv/) code v3.6.2
@@ -112,5 +112,5 @@ Developmental Code in Becoming!
 * 2011.0427.0133 - First Public Release
 * 2010.0427.0133 - Development  Release
 == Upgrade Notice ==
-= 2013.0607.0521 =render latest IE Edge or Chrome Frame version
+= 2013.0707.0521 =render latest IE Edge or Chrome Frame version
 Gold Update [STABLE] Fix and recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, applies basic (X)HTML5 styling for elements, allowing (X)HTML5 elements to be styled and contain children while being printed, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS.
