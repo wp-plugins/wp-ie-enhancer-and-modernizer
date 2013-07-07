@@ -57,9 +57,9 @@ IE7.js is a JavaScript library to make Microsoft Internet Explorer behave like a
 The term shiv originates from John Resig, who was thought to have used the word for its slang meaning, a sharp object used as a knife-like weapon, intended for Internet Explorer. Truth be known, John probably intended to use the word shim, which in computing means an application compatibility workaround. Rather than correct his mispelling, most developers familiar with Internet Explorer appreciated the visual imagery. And that, kids, is etymology.
 == Screenshots ==
 1. WP IE Enhancer and Modernizer Screenshot on WordPress
-== Plugin License ==
+== Plugin Licensing ==
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
-== External Script License ==
+== External Script Licensing ==
 Work under [MIT](http://www.opensource.org/licenses/mit-license.php) License.
 == Changelog ==
 `All releases, prior latest stable, are deprecated, 
@@ -68,10 +68,10 @@ suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
 = 2013.0707.0521 =
-* Gold Update [STABLE] Implement New [HTML5SHIV-PRINTSHIV](http://code.google.com/p/html5shiv-printshiv/) Code
+* Gold Update [STABLE] Implement New [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code
  * Please update as soon as possible!
- * NEW Implement New [HTML5SHIV-PRINTSHIV](http://code.google.com/p/html5shiv-printshiv/) code v3.6.2
- * NEW Add [ie7-recalc.js](http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js) v2.1(beta4) Trunk
+ * NEW Implement [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code v3.6.2
+ * NEW Add [ie7-recalc.js](http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js) Code v2.1(beta4) Trunk
  * NEW Add Plugin Code Support to Admin Dasboard and Login Page
  * NEW Add Contact and Donate Row Meta Links
  * NEW Removed non-ASCII characters on readme.txt and plugin header
