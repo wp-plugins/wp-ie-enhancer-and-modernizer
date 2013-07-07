@@ -85,7 +85,7 @@ Developmental Code in Becoming!
  * UPDATED Preemptive KeyTag Plugin Authenticity Support
  * UPDATED Header and Footer Log
  * UPDATED Security Rules
- * BUMP Version 2013 Build 0607 Revision 0521
+ * BUMP Version 2013 Build 0707 Revision 0521
 = Common Rules =
  * Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
  * Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
