@@ -67,6 +67,7 @@ CSS3 promises to do away with all that! But as we all know, due to Internet Expl
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
 == External Script Licensing ==
 Work under [MIT](http://www.opensource.org/licenses/mit-license.php) License.
+Work under [Apache2](http://www.apache.org/licenses/LICENSE-2.0) License.
 == Changelog ==
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
