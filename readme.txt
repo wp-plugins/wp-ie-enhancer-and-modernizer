@@ -11,7 +11,7 @@ make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 e
 == Description ==
 make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience.
 
-Recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6, add support for Google Chrome Frame, enable X-Content-Type, X-Frame and X-XSS protection.
+Recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6, add support for Google Chrome Frame, add suppoert for CSS3 PIE decorations rendering support for IE, enable X-Content-Type, X-Frame and X-XSS protection.
 
 Features:
 `
@@ -55,6 +55,12 @@ The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explo
 IE7.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues and makes transparent PNG work correctly under IE5 and IE6.
 
 The term shiv originates from John Resig, who was thought to have used the word for its slang meaning, a sharp object used as a knife-like weapon, intended for Internet Explorer. Truth be known, John probably intended to use the word shim, which in computing means an application compatibility workaround. Rather than correct his mispelling, most developers familiar with Internet Explorer appreciated the visual imagery. And that, kids, is etymology.
+
+PIE (Progressive Internet Explorer) makes Internet Explorer 6-9 capable of rendering several of the most useful CSS3 decoration features.
+
+CSS Level 3 brings with it some incredibly powerful styling features. Rounded corners, soft drop shadows, gradient fills, and so on. These are the kinds of elements our designer friends love to use because they make for attractive sites, but are difficult and time-consuming to implement, involving complex sprite images, extra non-semantic markup, large JavaScript? libraries, and other lovely hacks.
+
+CSS3 promises to do away with all that! But as we all know, due to Internet Explorer's lack of support for any of these features, we must be patient and refrain from using them, and make do with the same old tedious techniques for the foreseeable future.
 == Screenshots ==
 1. WP IE Enhancer and Modernizer Screenshot on WordPress
 == Plugin Licensing ==
@@ -70,6 +76,7 @@ Developmental Code in Becoming!
 = 2013.0707.0521 =
 * Gold Update [STABLE] Implement New [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code
  * Please update as soon as possible!
+ * NEW Add [CSS3 PIE](http://code.google.com/p/css3-pie/) Decorations Rendering Support for IE Code v2.0(beta1)
  * NEW Implement [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code v3.6.2
  * NEW Add [ie7-recalc.js](http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js) Code v2.1(beta4) Trunk
  * NEW Add Plugin Code Support to Admin Dasboard and Login Page
@@ -91,7 +98,7 @@ Developmental Code in Becoming!
  * Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * Meet detailed [Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) quality requirements.
  * Compatible with: WordPress, bbPress, Buddypress.
- * Unified Coding to run with WordPress 3.1+ to 3.6+ or later.
+ * Unified Coding to run with WordPress 2.1+ to 3.6+ or later.
  * Ready to Single and Network Multisite Environment.
  * Compatible with Shared, Dedicated, Cloud and VPS Hosting.
  * Run on Hosting with high and low resources.
@@ -113,4 +120,4 @@ Developmental Code in Becoming!
 * 2010.0427.0133 - Development  Release
 == Upgrade Notice ==
 = 2013.0707.0521 =
-Gold Update [STABLE] Fix and recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, applies basic (X)HTML5 styling for elements, allowing (X)HTML5 elements to be styled and contain children while being printed, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS.
+Gold Update [STABLE] Recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, applies basic (X)HTML5 styling for elements, allowing (X)HTML5 elements to be styled and contain children while being printed, CSS3 PIE, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS

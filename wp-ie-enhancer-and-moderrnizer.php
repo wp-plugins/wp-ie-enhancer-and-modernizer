@@ -3,7 +3,7 @@
 /*
 Plugin Name: WP IE Enhancer and Modernizer
 Plugin URI: http://slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
-Description: Fix and recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6.
+Description: Fix and recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, add CSS3 PIE decorations rendering support for IE, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6.
 Version: 2013.0707.0521
 Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
@@ -119,6 +119,20 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
+ * [PIE_IE678.js - PIE_IE9.js](http://code.google.com/p/css3-pie/) -  Copyright 2010, Jason Johnston | Dual Apache License Version 2.0/GPLv2 or later License
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
  * EXTERNAL LICENSING DISCLAIMER
  *
  * The MIT License is not related to this plugin, but to external linked .js script.
@@ -177,12 +191,14 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	<!--[if IE 8]>
 	<meta http-equiv="X-Content-Type-Options" content="nosniff">
 	<meta http-equiv="X-XSS-Protection" content="1;mode=block">
+	<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE9.js"></script>
 	<![endif]-->
 	<!--[if lt IE 9]>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/IE9.js">IE7_PNG_SUFFIX=".png";</script>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js</script>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/ie7-squish.js</script>
 	<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE678.js"></script>
 	<![endif]-->
 	<!--/End IE Enhancer and Modernizer Code-->
 	';
