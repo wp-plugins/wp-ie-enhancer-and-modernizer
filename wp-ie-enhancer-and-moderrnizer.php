@@ -3,20 +3,22 @@
 /*
 Plugin Name: WP IE Enhancer and Modernizer
 Plugin URI: http://slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
-Description: Make IE standards-compliant browser. Fix HTML/CSS issues and transparent PNG under IE6/5, shiv (X)HTML5 elements, render latest version. Enhancer and Modernizer IE WordPress Surfing Expirience. The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
-Version: 2013.0629.0138
-Author: sLaNGjI
+Description: Fix and recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6.
+Version: 2013.0607.0521
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
-Tested up to: 3.8
+Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * [IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Enhancer and Modernizer IE WordPress Surfing Expirience
+ * LICENSING
  *
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangjis[at]gmail[dot]com>)
+ * [WP IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Make IE standards-compliant Browser Enhancer and Modernizer WordPress Surfing Experience
+ *
+ * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -53,23 +55,23 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * This uses (or it parts) code derived from
  *
  * wp-header-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
  * wp-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2008-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * sLa2sLaNGjIs.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2013 [sLaNGjI](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
  *
  * VIOLATIONS
  *
@@ -90,17 +92,50 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
+ *
+ * EXTERNAL LICENSING
+ *
+ * [IE9.js - ie7-recalc.js - ie7-squish.js](http://code.google.com/p/ie7-js/) - Copyright 2004-2010, Dean Edwards
+ *
+ * [html5shiv-printshiv.js](http://code.google.com/p/html5shiv-printshiv/) - Copyright 2009-2013, @afarkas @jdalton @jon_neal @rem | Dual MIT/GPLv2 or later License
+ *
+ * The [MIT License](http://www.opensource.org/licenses/mit-license.php) (MIT)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * EXTERNAL LICENSING DISCLAIMER
+ *
+ * The MIT License is not related to this plugin, but to external linked .js script.
+ * This plugin is only Licensed to GPLv2 or later License
  */
 
 	/**
 	 * @package WP IE Enhancer and Modernizer
 	 * @subpackage WordPress PlugIn
-	 * @description Enhancer and Modernizer IE WordPress Surfing Expirience
+	 * @description Make IE standards-compliant Browser Enhancer and Modernizer WordPress Surfing Experience
 	 * @since 2.1.0
-	 * @tested 3.8.0
-	 * @version 2013.0629.0138
+	 * @tested 3.6.0
+	 * @version 2013.0607.0521
+	 * @1stversion 2010.0427.0133
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
+	 * @install The configuration of this Plugin is Automattic!
 	 * @author sLaNGjI
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
@@ -114,15 +149,19 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 			header( 'HTTP/1.1 403 Forbidden' );
 			header( 'Status: 403 Forbidden' );
 			header( 'Connection: Close' );
-				exit();
+			exit();
 		}
 
 	global $wp_version;
 
 	if ( $wp_version < 2.1 )
 		{
-			wp_die( __( 'This Plugin Requires WordPress 2.1+ or Greater: Activation Stopped!' ) );
+			wp_die( __( 'This Plugin Requires WordPress 2.1+ or Greater to Function: Please Upgrade. Activation Stopped!' ) );
 		}
+
+	add_action( 'wp_head', 'wpieeam' );
+	add_action( 'login_head', 'wpieeam' );
+	add_action( 'admin_head', 'wpieeam' );
 
 	function wpieeam()
 		{
@@ -133,7 +172,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<![endif]-->
 	<!--[if IE 6]>
-	<meta http-equiv="Imagetoolbar" content="no">
+	<meta http-equiv="imagetoolbar" content="no">
 	<![endif]-->
 	<!--[if IE 8]>
 	<meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -141,17 +180,30 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	<![endif]-->
 	<!--[if lt IE 9]>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js</script>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/ie7-squish.js</script>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 	<![endif]-->
-	<!--End IE Enhancer and Modernizer Code-->
+	<!--/End IE Enhancer and Modernizer Code-->
 	';
 		}
-	add_action( 'wp_head', 'wpieeam' );
+
+	add_filter( 'plugin_row_meta', 'wpieeam_row_links', 10, 2 );
+
+	function wpieeam_row_links( $links, $file )
+		{
+			if ( $file == plugin_basename( __FILE__ ) )
+				{
+					$links[] = '<a href="http://slangji.wordpress.com/contact/">' . __( 'Contact', 'wpieeam' ) . '</a>';
+					$links[] = '<a href="http://slangji.wordpress.com/donate/">' . __( 'Donate', 'wpieeam' ) . '</a>';
+				}
+			return $links;
+		}
 
 	function wpieeam_header_footer_log()
 		{
-			echo "\n<!--Plugin IE Enhancer and Modernizer 2012.0322.2238 Active - Tag: ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin IE Enhancer and Modernizer 2013.0607.0521 Active - Tag: " . md5( md5( "" . "" ) ) . "-->\n";
+			echo "\n<!--This Site is Optimized to Enhancer and Modernizer IE WordPress Surfing Experience-->\n";
 		}
 	add_action( 'wp_head', 'wpieeam_header_footer_log' );
 	add_action( 'wp_footer', 'wpieeam_header_footer_log' );
