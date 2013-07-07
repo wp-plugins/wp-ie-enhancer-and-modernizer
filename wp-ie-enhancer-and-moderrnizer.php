@@ -181,18 +181,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 		{
 			echo '
 	<!--Start IE Enhancer and Modernizer Code-->
-	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-	<!--[if IE]>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<![endif]-->
-	<!--[if IE 6]>
-	<meta http-equiv="imagetoolbar" content="no">
-	<![endif]-->
-	<!--[if IE 8]>
-	<meta http-equiv="X-Content-Type-Options" content="nosniff">
-	<meta http-equiv="X-XSS-Protection" content="1;mode=block">
-	<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE9.js"></script>
-	<![endif]-->
 	<!--[if lt IE 9]>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/IE9.js">IE7_PNG_SUFFIX=".png";</script>
 	<script src="http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js</script>
@@ -200,6 +188,21 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 	<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE678.js"></script>
 	<![endif]-->
+	<!--[if IE 9]>
+	<script src="http://html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if gt IE 7]>
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<meta http-equiv="X-XSS-Protection" content="1;mode=block">
+	<![endif]-->
+	<!--[if IE 6]>
+	<meta http-equiv="imagetoolbar" content="no">
+	<![endif]-->
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
 	<!--/End IE Enhancer and Modernizer Code-->
 	';
 		}
