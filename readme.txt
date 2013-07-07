@@ -60,7 +60,7 @@ The term shiv originates from John Resig, who was thought to have used the word 
 == Plugin License ==
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
 == External Script License ==
-Work under [MIT License](http://www.opensource.org/licenses/mit-license.php)
+Work under [MIT](http://www.opensource.org/licenses/mit-license.php) License.
 == Changelog ==
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
