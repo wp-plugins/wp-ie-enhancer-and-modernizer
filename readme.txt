@@ -66,8 +66,11 @@ CSS3 promises to do away with all that! But as we all know, due to Internet Expl
 == Plugin Licensing ==
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License.
 == External Script Licensing ==
-Work under [MIT](http://www.opensource.org/licenses/mit-license.php) License.
-Work under [Apache2](http://www.apache.org/licenses/LICENSE-2.0) License.
+[IE9.js - ie7-recalc.js - ie7-squish.js](http://code.google.com/p/ie7-js/) [MIT](http://www.opensource.org/licenses/mit-license.php) License
+
+[html5shiv-printshiv.js](http://code.google.com/p/html5shiv-printshiv/) Dual [MIT](http://www.opensource.org/licenses/mit-license.php)/[GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License
+
+[PIE_IE678.js - PIE_IE9.js](http://code.google.com/p/css3-pie/) Dual [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)/[GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later License
 == Changelog ==
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 

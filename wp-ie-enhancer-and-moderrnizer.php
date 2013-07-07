@@ -95,7 +95,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * EXTERNAL LICENSING
  *
- * [IE9.js - ie7-recalc.js - ie7-squish.js](http://code.google.com/p/ie7-js/) - Copyright 2004-2010, Dean Edwards
+ * [IE9.js - ie7-recalc.js - ie7-squish.js](http://code.google.com/p/ie7-js/) - Copyright 2004-2010, Dean Edwards | MIT License
  *
  * [html5shiv-printshiv.js](http://code.google.com/p/html5shiv-printshiv/) - Copyright 2009-2013, @afarkas @jdalton @jon_neal @rem | Dual MIT/GPLv2 or later License
  *
