@@ -76,7 +76,7 @@ Developmental Code in Becoming!
 = 2013.0707.0521 =
 * Gold Update [STABLE] Implement New [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code
  * Please update as soon as possible!
- * NEW Add [CSS3 PIE](http://code.google.com/p/css3-pie/) Decorations Rendering Support for IE Code v2.0(beta1)
+ * NEW [CSS3 PIE](http://code.google.com/p/css3-pie/) Decorations Rendering for IE Code v2.0(beta1)
  * NEW Implement [html5shiv-printshiv](http://code.google.com/p/html5shiv-printshiv/) Code v3.6.2
  * NEW Add [ie7-recalc.js](http://ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js) Code v2.1(beta4) Trunk
  * NEW Add Plugin Code Support to Admin Dasboard and Login Page
