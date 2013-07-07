@@ -1,4 +1,4 @@
-=== IE Enhancer and Modernizer Sourfing Experience ===
+=== IE Enhancer and Modernizer Surf Experience ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: edge, explorer, fix, html5, ie6, internet, internet-explorer, print, render, shiv, sla, slangji
