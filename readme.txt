@@ -1,7 +1,7 @@
 === IE Enhancer and Modernizer Surf Experience ===
-Contributors: sLaNGjI
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: edge, explorer, fix, html5, ie6, internet, internet-explorer, print, render, shiv, sla, slangji
+Tags: edge, explorer, fix, html5, ie6, internet, internet-explorer, print, render, shiv, sla, slangjis
 Stable tag: trunk
 Requires at least: 2.1
 Tested up to: 3.6
