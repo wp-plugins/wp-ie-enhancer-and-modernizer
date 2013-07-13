@@ -4,7 +4,7 @@ Plugin Name: WP IE Enhancer and Modernizer
 Plugin URI: http://slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
 Description: Fix and recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, add CSS3 PIE decorations rendering support for IE, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6.
 Version: 2013.0707.0521
-Author: sLa NGjI's NGjI's
+Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 2.1
 Tested up to: 3.6
@@ -17,7 +17,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * [WP IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Make IE standards-compliant Browser Enhancer and Modernizer WordPress Surfing Experience
  *
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2010-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -53,24 +53,24 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * This uses (or it parts) code derived from
  *
- * wp-header-footer-log.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
- * wp-footer-log.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * sLa2sLaNGjIs.php by sla <slangjis[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
  *
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Copyright (C) 2008-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * VIOLATIONS
  *
@@ -149,7 +149,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @install The configuration of this Plugin is Automattic!
-	 * @author sla NGjI's
+	 * @author slangjis
 	 * @license GPLv2 or later
 	 * @indentation GNU style coding standard
 	 * @keytag 74be16979710d4c4e7c6647856088456

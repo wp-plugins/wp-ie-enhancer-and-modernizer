@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience
 == Description ==
-make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience.
+make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience
 
 Recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6, add support for Google Chrome Frame, add suppoert for CSS3 PIE decorations rendering support for IE, enable X-Content-Type, X-Frame and X-XSS protection.
 
