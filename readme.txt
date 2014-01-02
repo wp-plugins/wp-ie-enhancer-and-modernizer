@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: edge, explorer, fix, html5, ie6, internet, internet-explorer, print, render, shiv, sla, slangjis
 Stable tag: trunk
 Requires at least: 2.1
-Tested up to: 3.6
+Tested up to: 3.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience
@@ -102,7 +102,7 @@ Developmental Code in Becoming!
  * Implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * Meet detailed [Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) quality requirements.
  * Compatible with: WordPress, bbPress, Buddypress.
- * Unified Coding to run with WordPress 2.1+ to 3.6+ or later.
+ * Unified Coding to run with WordPress 2.1+ to 3.9+ or later.
  * Ready to Single and Network Multisite Environment.
  * Compatible with Shared, Dedicated, Cloud and VPS Hosting.
  * Run on Hosting with high and low resources.
