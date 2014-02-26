@@ -78,8 +78,9 @@ suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
 = 2014.0226.0242 =
-* Ultra Update [STABLE] The Next Generation of IE Enhancing Future is Now!
+* Ultra Update [STABLE] The Future Now: Next Generation IE Enhancing!
  * Please update as soon as possible!
+ * NEW Add Support for IE11
  * NEW Add Support for IE10
  * UPDATED HTML5 Shiv Print to v3.7.0
  * REMOVED Support for CSS3-PIE

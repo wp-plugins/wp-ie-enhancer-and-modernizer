@@ -172,6 +172,9 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 		{
 			echo '
 	<!--Start IE Enhancer and Modernizer Code-->
+	<!--[if IE 11]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
 	<!--[if IE 10]>
 	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 	<![endif]-->
@@ -206,7 +209,7 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 			if ( $file == plugin_basename( __FILE__ ) )
 				{
 					$links[] = '<a title="Offer a Beer to sLa" href="//slangji.wordpress.com/donate/">Donate</a>';
-					$links[] = '<a title="Buxfix and Suggestions" href="//slangji.wordpress.com/contact/">Contact</a>';
+					$links[] = '<a title="Bugfix and Suggestions" href="//slangji.wordpress.com/contact/">Contact</a>';
 
 				global $wp_version;
 
