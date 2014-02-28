@@ -70,17 +70,22 @@ Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License.
 
 [html5shiv-printshiv.js](//code.google.com/p/html5shiv-printshiv/) Dual [MIT](//www.opensource.org/licenses/mit-license.php)/[GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License
 
-[PIE_IE678.js - PIE_IE9.js](//code.google.com/p/css3-pie/) Dual [Apache License Version 2.0](//www.apache.org/licenses/LICENSE-2.0)/[GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License
+[PIE_IE678.js - PIE_IE9.js](//code.google.com/p/css3-pie/) Dual [Apache License Version 2.0](//www.apache.org/licenses/LICENSE-2.0)/[GPLv2](//www.gnu.org/licenses/gpl-2.0.html) License
 == Changelog ==
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
+= 2014.0228.2129 =
+* Requested Update [STABLE] Support for non IE and Mobile Browsers!
+ * Please update as soon as possible!
+ * NEW Add Support for non IE and Mobile Browsers
+ * NEW Add Support for IE11
+ * BUMP Version 2014 Build 0228 Revision 2129
 = 2014.0226.0242 =
 * Ultra Update [STABLE] The Future Now: Next Generation IE Enhancing!
  * Please update as soon as possible!
- * NEW Add Support for IE11
  * NEW Add Support for IE10
  * UPDATED HTML5 Shiv Print to v3.7.0
  * REMOVED Support for CSS3-PIE
@@ -131,7 +136,6 @@ Developmental Code in Becoming!
 * 2011.0427.0133 - First Public Release
 * 2010.0427.0133 - Development  Release
 == Upgrade Notice ==
-= 2014.0226.0242 =
-Ultra Update [STABLE] Update HTML5 Shiv Print to v3.7.0 - Add Support for IE10 - Removed Support for CSS3-PIE
-= 2013.0707.0521 =
-Gold Update [STABLE] Recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, applies basic (X)HTML5 styling for elements, allowing (X)HTML5 elements to be styled and contain children while being printed, CSS3 PIE, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS
+= 2014.0228.2129 =
+* Requested Update [STABLE] Support for non IE and Mobile Browsers! Previous Release: Update HTML5 Shiv Print to v3.7.0 - Add Support for IE10 - Removed Support for CSS3-PIE - Rules: Recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, applies basic (X)HTML5 styling for elements, allowing (X)HTML5 elements to be styled and contain children while being printed, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS
+

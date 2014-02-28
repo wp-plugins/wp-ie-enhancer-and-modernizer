@@ -3,7 +3,7 @@
 Plugin Name: WP IE Enhancer and Modernizer
 Plugin URI: //slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
 Description: Fix and recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6.
-Version: 2014.0226.0242
+Version: 2014.0228.2129
 Author: sLa NGjI's
 Author URI: //slangji.wordpress.com/
 Requires at least: 2.1
@@ -136,7 +136,7 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 	 * @subpackage WordPress PlugIn
 	 * @description Make IE standards-compliant Browser Enhancer and Modernizer WordPress Surfing Experience
 	 * @since 2.1.0
-	 * @version    2014.0226.0242
+	 * @version    2014.0228.2129
 	 * @1stversion 2010.0427.0133
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
@@ -172,6 +172,9 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 		{
 			echo '
 	<!--Start IE Enhancer and Modernizer Code-->
+	<!--[if !IE]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
 	<!--[if IE 11]>
 	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
 	<![endif]-->
@@ -232,7 +235,7 @@ Indentation URI: //www.gnu.org/prep/standards/standards.html
 
 	function wpieeam_hfl()
 		{
-			echo "\n<!--Plugin IE Enhancer and Modernizer 2014.0226.0242 Active - Tag " . md5( md5( "" . "" ) ) . "-->\n";
+			echo "\n<!--Plugin IE Enhancer and Modernizer 2014.0228.2129 Active - Tag " . md5( md5( "" . "" ) ) . "-->\n";
 			echo "\n<!--Site Optimized to Enhancer and Modernizer IE WordPress Surfing Experience-->\n\n";
 		}
 ?>
