@@ -7,10 +7,12 @@ Version: 2014.0228.2129
 Author: sLa NGjI's
 Author URI: //slangji.wordpress.com/
 Requires at least: 2.1
+Tested up to: 3.9.2
 License: GPLv2 or later
 License URI: //www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: //www.gnu.org/prep/standards/standards.html
+Network: True
  *
  * LICENSING
  *
