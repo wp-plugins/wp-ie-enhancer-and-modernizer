@@ -137,5 +137,5 @@ Developmental Code in Becoming!
 * 2010.0427.0133 - Development  Release
 == Upgrade Notice ==
 = 2014.0228.2129 =
-* Requested Update [STABLE] Support for non IE and Mobile Browsers! Previous Release: Update HTML5 Shiv Print to v3.7.0 - Add Support for IE10 and IE11 - Removed Support for CSS3-PIE - Rules: Recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, render latest version, squish IE bugs, prevent framekiller, clickjacking, XSS
+* Requested Update [STABLE] Support for non IE and Mobile Browsers! Previous Release: Update HTML5 Shiv Print to v3.7.0 - Add Support for IE10 and IE11 - Removed Support for CSS3-PIE - Rules: Recalc HTML/CSS issues, transparent PNG, shiv (X)HTML5 elements, render latest version, squish IE bugs, XSS.
 
