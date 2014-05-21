@@ -77,11 +77,11 @@ and no longer supported on this project: is very
 suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
-= 2014.0521.0737 =
+= 2014.0521.0757 =
 * Requested Update [STABLE] Support for IE Edge via HTTP Header
  * Please update as soon as possible!
  * NEW More support for [HTTP Header IE Edge Mode](//wordpress.org/support/topic/ie-edge-doesnt-work/)
- * BUMP Version 2014 Build 0521 Revision 0737
+ * BUMP Version 2014 Build 0521 Revision 0757
 = 2014.0228.2129 =
 * Requested Update [STABLE] Support for non IE and Mobile Browsers!
  * Please update as soon as possible!
