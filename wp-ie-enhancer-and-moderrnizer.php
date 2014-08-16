@@ -1,4 +1,4 @@
-<?php
+<?php 
 /*
 Plugin Name: IE Enhancer and Modernizer
 Plugin URI: //slangji.wordpress.com/wp-ie-enhancer-and-modernizer/
