@@ -11,6 +11,8 @@ make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 e
 == Description ==
 make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience
 
+sLa NGjI's Team do not provide support on wordpress.org forum and reviews! [Full Story Here](//wordpress.org/plugins/wp-missed-schedule/other_notes/)
+
 Recalc HTML/CSS issues on IE5/IE6/IE7/IE8, transparent PNG on IE5/IE6, shiv (X)HTML5 elements on IE6/IE7/IE8, applies basic (X)HTML5 styling for elements on IE6/IE7/IE8/IE9, Safari 4.x (and iPhone 3.x), Firefox 3.x, allowing (X)HTML5 elements to be styled and contain children while being printed on IE6/IE7/IE8, render latest IE Edge or Chrome Frame version, squish some IE bugs and make it compatible with modern browsers, prevent framekiller, clickjacking and XSS on IE8+ browser, disable Imagetoolbar on IE6, add support for Google Chrome Frame, enable X-Content-Type, X-Frame and X-XSS protection.
 
 Features:
@@ -72,6 +74,7 @@ Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License.
 
 [PIE_IE678.js - PIE_IE9.js](//code.google.com/p/css3-pie/) Dual [Apache License Version 2.0](//www.apache.org/licenses/LICENSE-2.0)/[GPLv2](//www.gnu.org/licenses/gpl-2.0.html) License
 == Changelog ==
+sLa NGjI's Team do not provide support on wordpress.org forum and reviews! [Full Story Here](//wordpress.org/plugins/wp-missed-schedule/other_notes/)
 `All releases, prior latest stable, are deprecated, 
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
