@@ -4,7 +4,7 @@ Donate link: //slangji.wordpress.com/donate/
 Tags: chrome-frame, edge, explorer, fix, html5, ie6, internet, internet-explorer, print, render, shiv, slangjis
 Stable tag: trunk
 Requires at least: 2.1
-Tested up to: 4.1-alpha
+Tested up to: 4.3
 License: GPLv2 or later
 License URI: //www.gnu.org/licenses/gpl-2.0.html
 make ie6+ standards-compliant browser fix html/css transparent png, shiv html5 elements, render latest version, enhancer modernizer surfing experience
